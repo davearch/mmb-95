@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for MMB module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
+ */
+
+/**
+ * Implements hook_entity_bundle_field_info_alter().
+ */
+function mmb_entity_bundle_field_info_alter(&$fields, \Drupal\Core\Entity\EntityTypeInterface $entity_type, $bundle) {
+    if ($entity_type->id() == 'node' && $bundle == 'mmb_95') {
+      if (isset($fields['field_date_bar_variations'])) {
+        // Use the ID as defined in the annotation of the constraint definition
+        $fields['field_date_bar_variations']->addConstraint('MmbConstraint', []);
+      }
+    }
+  }

@@ -1,0 +1,18 @@
+uuid: 4adfaa2e-dfcc-48d4-b3bc-b5cbacfb472c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: MMB-95
+type: mmb_95
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

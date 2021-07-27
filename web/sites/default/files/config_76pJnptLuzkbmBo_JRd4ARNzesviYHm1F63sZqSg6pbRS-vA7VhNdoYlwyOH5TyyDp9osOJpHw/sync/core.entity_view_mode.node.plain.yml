@@ -1,0 +1,10 @@
+uuid: 49cbc002-4755-47fd-82c5-5b2a2beb1687
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.plain
+label: 'Plain Title'
+targetEntityType: node
+cache: true

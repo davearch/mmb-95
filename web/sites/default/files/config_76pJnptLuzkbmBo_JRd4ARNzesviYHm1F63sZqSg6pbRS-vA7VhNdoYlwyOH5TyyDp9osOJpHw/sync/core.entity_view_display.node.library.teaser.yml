@@ -1,0 +1,20 @@
+uuid: 1d97a04a-e0c4-477d-b4f5-6a3b23b7ebdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.library
+  module:
+    - user
+id: node.library.teaser
+targetEntityType: node
+bundle: library
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

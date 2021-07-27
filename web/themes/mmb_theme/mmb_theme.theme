@@ -1,0 +1,22 @@
+<?php
+
+
+/**
+* Implements mmb_suggestions_page_alter().
+*/
+function mmb_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+    if ($node = \Drupal::routeMatch()->getParameter('node')) {
+        if ($node->bundle() == 'mmb-95') {
+            $suggestions[] = 'page__' . $node->bundle();
+        }
+    }
+}
+
+function mmb_preprocess_field(&$variables) {
+    if (($variables['element']['#field_name'] == 'field_date_bar_variations')) {
+        $start_date = $variables['element'][0]['start_date']['#markup'];
+        if (strtotime($start_date) < strtotime('now')) {
+            $variables['items'][0]['content']['start_date']['#markup'] = 'Now';
+        }
+    }
+}

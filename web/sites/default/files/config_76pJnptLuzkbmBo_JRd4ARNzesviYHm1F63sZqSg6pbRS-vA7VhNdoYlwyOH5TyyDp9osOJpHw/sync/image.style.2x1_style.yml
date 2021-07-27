@@ -1,0 +1,25 @@
+uuid: d0de5bb9-2dcc-4363-8ee4-89a106e00735
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.2x1
+  module:
+    - crop
+name: 2x1_style
+label: '2x1 Style'
+effects:
+  e9ec6169-447e-4738-87cc-95af754fe760:
+    uuid: e9ec6169-447e-4738-87cc-95af754fe760
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: 2x1
+  85a48ffb-e98b-4df6-bb21-2274488785fa:
+    uuid: 85a48ffb-e98b-4df6-bb21-2274488785fa
+    id: image_scale
+    weight: 2
+    data:
+      width: null
+      height: 500
+      upscale: false

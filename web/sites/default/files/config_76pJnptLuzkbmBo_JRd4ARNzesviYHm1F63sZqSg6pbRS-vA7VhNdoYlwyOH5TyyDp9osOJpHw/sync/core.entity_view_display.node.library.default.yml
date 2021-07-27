@@ -1,0 +1,19 @@
+uuid: 1e9d94dc-c31d-47fb-acb9-a94cd0dff7f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.library
+  module:
+    - user
+id: node.library.default
+targetEntityType: node
+bundle: library
+mode: default
+content:
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

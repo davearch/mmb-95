@@ -1,0 +1,22 @@
+uuid: e3daa455-19cf-4340-81f0-406a80a3424c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mmb_theme
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: mmb_theme_powered
+theme: mmb_theme
+region: header
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,18 @@
+uuid: ca1fa2b1-8e13-45e0-960b-940921690596
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Library
+type: library
+description: 'Public Libraries'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

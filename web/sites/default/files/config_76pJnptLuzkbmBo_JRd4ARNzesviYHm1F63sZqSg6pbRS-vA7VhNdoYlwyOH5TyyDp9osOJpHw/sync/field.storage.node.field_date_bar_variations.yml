@@ -1,0 +1,20 @@
+uuid: 88e44a62-b5f3-4d21-b8a4-dd2c6e05c890
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - node
+id: node.field_date_bar_variations
+field_name: field_date_bar_variations
+entity_type: node
+type: daterange
+settings:
+  datetime_type: date
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

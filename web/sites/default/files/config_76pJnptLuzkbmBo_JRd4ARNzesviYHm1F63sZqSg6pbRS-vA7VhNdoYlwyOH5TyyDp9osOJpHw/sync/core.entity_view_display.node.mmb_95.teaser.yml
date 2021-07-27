@@ -1,0 +1,28 @@
+uuid: d8f42b72-152c-49d7-9ab5-6b5df1867b24
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.mmb_95.field_date_bar_variations
+    - field.field.node.mmb_95.field_image
+    - field.field.node.mmb_95.field_library_name
+    - field.field.node.mmb_95.field_plain_text
+    - node.type.mmb_95
+  module:
+    - user
+id: node.mmb_95.teaser
+targetEntityType: node
+bundle: mmb_95
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_date_bar_variations: true
+  field_image: true
+  field_library_name: true
+  field_plain_text: true

@@ -1,0 +1,22 @@
+uuid: fe4a7e5b-8269-46ba-8a8b-0cc7f0756925
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - mmb_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: mmb_theme_help
+theme: mmb_theme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

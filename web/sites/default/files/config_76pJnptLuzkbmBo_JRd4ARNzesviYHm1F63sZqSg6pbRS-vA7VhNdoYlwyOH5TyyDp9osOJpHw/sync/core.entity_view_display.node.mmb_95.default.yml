@@ -1,0 +1,60 @@
+uuid: 34b9b186-e638-420e-a4aa-b477274dc64b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.mmb_95.field_date_bar_variations
+    - field.field.node.mmb_95.field_image
+    - field.field.node.mmb_95.field_library_name
+    - field.field.node.mmb_95.field_plain_text
+    - image.style.2x1_style
+    - node.type.mmb_95
+  module:
+    - datetime_range
+    - image
+    - user
+id: node.mmb_95.default
+targetEntityType: node
+bundle: mmb_95
+mode: default
+content:
+  field_date_bar_variations:
+    weight: 2
+    label: hidden
+    settings:
+      timezone_override: ''
+      date_format: 'F j, Y'
+      separator: '-'
+    third_party_settings: {  }
+    type: daterange_custom
+    region: content
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: 2x1_style
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_library_name:
+    weight: 3
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_plain_text:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

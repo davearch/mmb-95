@@ -1,0 +1,16 @@
+uuid: b965a463-bb4b-4201-b108-73daa7753606
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.plain
+    - node.type.library
+  module:
+    - user
+id: node.library.plain
+targetEntityType: node
+bundle: library
+mode: plain
+content: {  }
+hidden:
+  links: true

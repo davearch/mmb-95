@@ -1,0 +1,22 @@
+uuid: 710e43a5-31c8-4b4e-9ab7-43f17a1475d9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mmb_theme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: mmb_theme_local_tasks
+theme: mmb_theme
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

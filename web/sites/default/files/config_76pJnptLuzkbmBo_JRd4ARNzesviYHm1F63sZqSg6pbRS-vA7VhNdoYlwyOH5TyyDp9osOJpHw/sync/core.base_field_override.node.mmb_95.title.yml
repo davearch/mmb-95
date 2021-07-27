@@ -1,0 +1,18 @@
+uuid: fb74451e-4005-4c8c-b4ae-2ba552604960
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.mmb_95
+id: node.mmb_95.title
+field_name: title
+entity_type: node
+bundle: mmb_95
+label: 'Card Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,18 @@
+uuid: a69c59af-5208-43c3-b7af-8aabda705958
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.library
+id: node.library.title
+field_name: title
+entity_type: node
+bundle: library
+label: 'Library Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

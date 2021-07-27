@@ -1,0 +1,21 @@
+uuid: 589f09b9-1cbf-4db6-9c28-5b35228ad862
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_bar_variations
+    - node.type.mmb_95
+  module:
+    - datetime_range
+id: node.mmb_95.field_date_bar_variations
+field_name: field_date_bar_variations
+entity_type: node
+bundle: mmb_95
+label: 'Date Bar Variations'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange
